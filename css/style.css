@@ -1,0 +1,1288 @@
+@charset "utf-8";
+header {
+    width: 7.5rem;
+    height: 0.94rem;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #f0f0f0;
+    position: relative;
+}
+
+header img:first-of-type {
+    width: 1.56rem;
+    height: 0.42rem;
+    position: absolute;
+    top: 0.28rem;
+    left: 0.22rem;
+}
+
+header img:nth-of-type(2) {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.18rem;
+    right: 1.24rem;
+}
+
+header img:last-of-type {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 0.18rem;
+    right: 0.24rem;
+}
+
+
+/*banner*/
+
+.swiper-container {
+    width: 7.5rem;
+    height: 3.01rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.swiper-container .swiper-wrapper img {
+    width: 7.5rem;
+    height: 3.01rem;
+}
+
+
+/*navflex布局*/
+
+.nav {
+    width: 7.5rem;
+    height: 2.04rem;
+    background: #f6f6f6;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav .nav-center {
+    width: 6.55rem;
+    height: 2.04rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav .nav-center ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .nav-center ul li {
+    position: relative;
+}
+
+.nav .nav-center ul li img {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+.nav .nav-center ul li span {
+    font-size: 0.26rem;
+    color: #353535;
+    position: absolute;
+    left: 0.05rem;
+    bottom: -0.4rem;
+}
+
+
+/*abroad*/
+
+.abroad {
+    width: 7.5rem;
+    height: 0.84rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.abroad img {
+    width: 1.5rem;
+    height: 0.38rem;
+    margin: 0.24rem auto 0.24rem 0.24rem
+}
+
+.abroad ul {
+    width: 5.6rem;
+    height: 0.3rem;
+    float: right;
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+
+.abroad ul li {
+    font-size: 0.26rem;
+    color: #3c3c3c;
+    line-height: 0.3rem;
+}
+
+
+/*academic*/
+
+.academic {
+    width: 7.5rem;
+    height: 4.36rem;
+    background: #f5f5f5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.academic .academic1 {
+    width: 7.5rem;
+    height: 2.28rem;
+    position: relative;
+}
+
+.academic .academic1 img {
+    width: 2.32rem;
+    height: 1.94rem;
+    float: left;
+    margin-right: 0.26rem;
+    margin-top: 0.32rem;
+}
+
+.academic .academic1 img:last-of-type {
+    margin-right: 0;
+}
+
+.academic .academic1 span {
+    width: 1.7rem;
+    height: 0.36rem;
+    font-size: 0.28rem;
+    color: #fff;
+    border-radius: 0 0.18rem 0.18rem 0;
+}
+
+.academic .academic1 span:first-of-type {
+    background: #347296;
+    position: absolute;
+    top: 0.6rem;
+    left: 0;
+}
+
+.academic .academic1 span:nth-of-type(2) {
+    background: #6a4b88;
+    position: absolute;
+    top: 0.6rem;
+    left: 2.6rem;
+}
+
+.academic .academic1 span:last-of-type {
+    background: #ab8869;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.64rem;
+}
+
+.academic .academic1 p {
+    width: 1.96rem;
+    height: 0.7rem;
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.academic .academic1 p:first-of-type {
+    position: absolute;
+    top: 1.26rem;
+    left: 0.18rem;
+}
+
+.academic .academic1 p:nth-of-type(2) {
+    position: absolute;
+    top: 1.26rem;
+    left: 2.72rem;
+}
+
+.academic .academic1 p:last-of-type {
+    position: absolute;
+    top: 1.26rem;
+    right: 0.24rem;
+}
+
+.academic .academic2 {
+    width: 7.5rem;
+    height: 1.78rem;
+    position: relative;
+}
+
+.academic .academic2 img {
+    width: 3.6rem;
+    height: 1.54rem;
+    float: left;
+    margin-top: 0.22rem;
+}
+
+.academic .academic2 img:first-of-type {
+    margin-right: 0.3rem;
+}
+
+.academic .academic2 span {
+    width: 2.6rem;
+    height: 0.54rem;
+    font-size: 0.36rem;
+    color: #fff;
+}
+
+.academic .academic2 span:first-of-type {
+    position: absolute;
+    top: 0.46rem;
+    left: 0.18rem;
+}
+
+.academic .academic2 span:last-of-type {
+    position: absolute;
+    top: 0.46rem;
+    right: 0.8rem;
+}
+
+.academic .academic2 p {
+    width: 3.24rem;
+    height: 0.54rem;
+    font-size: 0.26rem;
+    color: #fff;
+}
+
+.academic .academic2 p:first-of-type {
+    position: absolute;
+    top: 1.14rem;
+    left: 0.18rem;
+}
+
+.academic .academic2 p:last-of-type {
+    position: absolute;
+    top: 1.14rem;
+    left: 4.04rem;
+}
+
+
+/*destination*/
+
+.destination {
+    width: 7.5rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+
+.destination1 {
+    width: 7.5rem;
+    height: 0.84rem;
+    border-bottom: 1px solid #ccc
+}
+
+.destination1 img:nth-child(1) {
+    float: left;
+    width: 0.44rem;
+    height: 0.4rem;
+    margin: 0.2rem auto auto 0.2rem;
+}
+
+.destination1 h2 {
+    float: left;
+    font-size: 0.3rem;
+    margin: 0.26rem auto auto 0.1rem;
+}
+
+.destination1 p {
+    float: right;
+    font-size: 0.24rem;
+    color: #fe4d37;
+    margin: 0.24rem 0.25rem auto auto;
+}
+
+.destination1 img:nth-child(4) {
+    float: right;
+    width: 0.31rem;
+    height: 0.26rem;
+    margin: 0.24rem 0.1rem auto auto;
+}
+
+.destination .swiper-container {
+    width: 7.1rem;
+    height: 4.6rem;
+}
+
+.destination .swiper-container .swiper-pagination-bullet-active {
+    background: #fe3c24;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul {
+    display: flex;
+    justify-content: space-between;
+    width: 7.1rem;
+    margin: 0 auto;
+    margin-top: 0.43rem;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li {
+    text-align: center;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li p {
+    font-size: 0.28rem;
+    line-height: 0.5rem;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+/*national*/
+
+.destination .swiper-container {
+    width: 7.5rem;
+    height: 4.82rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.destination .swiper-container .swiper-wrapper {
+    width: 7.06rem;
+    height: 4.82rem;
+    margin: 0 auto;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide {
+    width: 7.06rem;
+    height: 4.82rem;
+    margin: 0 auto;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li {
+    float: left;
+    width: 1.32rem;
+    height: 1.78rem;
+    margin-right: 0.55rem;
+    margin-bottom: 0.42rem;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li:last-of-type {
+    margin-right: 0;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li img {
+    width: 1.32rem;
+    height: 1.4rem;
+    margin-top: 0.4rem;
+}
+
+.destination .swiper-container .swiper-wrapper .swiper-slide ul li span {
+    margin: 0.24rem auto auto 0.42rem;
+    font-size: 0.28rem;
+}
+
+
+/*school*/
+
+.school {
+    width: 7.5rem;
+    height: 10.85rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.school .school-bg {
+    width: 7.5rem;
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.school .school-top {
+    height: 0.8rem;
+    position: relative;
+}
+
+.school .school-top img:first-of-type {
+    width: 0.44rem;
+    height: 0.4rem;
+    margin: 0.22rem auto 0.22rem 0.22rem
+}
+
+.school .school-top img:last-of-type {
+    width: 0.31rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.26rem;
+    right: 1.4rem;
+}
+
+.school .school-top span:first-of-type {
+    font-size: 0.32rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.84rem;
+}
+
+.school .school-top span:last-of-type {
+    font-size: 0.26rem;
+    color: #fe715d;
+    position: absolute;
+    top: 0.22rem;
+    right: 0.22rem;
+}
+
+
+/*school-nav*/
+
+.school .school-nav {
+    width: 7.5rem;
+    height: 0.88rem;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.school .school-nav ul li {
+    width: 1.2rem;
+    height: 0.88rem;
+    font-size: 0.3rem;
+    color: #848484;
+    margin-right: 0.32rem;
+    float: left;
+    line-height: 0.88rem;
+}
+
+.school .school-nav ul li:first-child {
+    margin-left: 0.14rem;
+}
+
+.school .school-nav ul li:last-child {
+    margin-right: 0;
+}
+
+
+/*school-subnav*/
+
+.on {
+    color: #f00;
+    padding-bottom: 0.05rem;
+    border-bottom: 1px solid #f00;
+    margin-top: -0.04rem;
+}
+
+.school .school-subnav {
+    width: 7.5rem;
+    height: auto;
+}
+
+.school .school-subnav ul li {
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.school .school-subnav ul li:first-child {
+    width: 7.5rem;
+    height: 1.6rem;
+}
+
+.school .school-subnav ul li:nth-child(n+2) {
+    width: 7.5rem;
+    height: 1.4rem;
+}
+
+.school .school-subnav ul li>div {
+    height: 0.42rem;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.38rem;
+    left: 0.26rem;
+}
+
+.school .school-subnav ul li>p {
+    font-size: 0.28rem;
+    position: absolute;
+    bottom: 0.26rem;
+    left: 0.26rem;
+    color: #d1d2d2;
+}
+
+.school .school-subnav ul li span:first-of-type {
+    width: 0.25rem;
+    height: 0..25rem;
+    background: #fe3c24;
+    color: #fff;
+    font-size: 0.28rem;
+    padding: 0.05rem;
+    border-radius: 0.05rem;
+    margin-right: 0.14rem;
+}
+
+.school .school-subnav ul li span:last-of-type {
+    width: 1rem;
+    height: 0.36rem;
+    font-size: 0.2rem;
+    padding: 0.05rem;
+    text-align: center;
+    border: 1px solid #59d48a;
+    border-radius: 0.05rem;
+    color: #59d48a;
+    margin-left: 0.1rem;
+}
+
+.school .school-subnav ul li img {
+    width: 0.2rem;
+    height: 0.36rem;
+    position: absolute;
+    top: 0.24rem;
+    right: 0.24rem;
+}
+
+.school .school-subnav ul li img:first-of-type {
+    position: absolute;
+    top: 0.36rem;
+    right: 0.24rem;
+}
+
+.school .school-subnav ul li div span:first-of-type(even) {
+    background: #f8b20;
+}
+
+
+/*more*/
+
+.school .school-subnav .more {
+    width: 7.5rem;
+    height: 1.62rem;
+}
+
+.school .school-subnav .more .click {
+    width: 7.04rem;
+    height: 0.74rem;
+    margin: 0.4rem auto 0.44rem;
+    border: 1px solid #eee;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.74rem;
+}
+
+
+/*pic*/
+
+.pic {
+    width: 7.5rem;
+    height: 1.78rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pic .pic-bg {
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.pic .pic-content {
+    height: 1.48rem;
+    width: 7.5rem;
+    position: relative;
+}
+
+.pic .pic-content img:first-of-type {
+    height: 1.48rem;
+    width: 3.75rem;
+    float: left;
+}
+
+.pic .pic-content img:nth-of-type(2) {
+    height: 0.76rem;
+    width: 0.77rem;
+    position: absolute;
+    top: 0.34rem;
+    left: 0.3rem
+}
+
+.pic .pic-content img:nth-of-type(3) {
+    height: 1.48rem;
+    width: 3.75rem;
+    float: right;
+}
+
+.pic .pic-content img:last-of-type {
+    height: 0.76rem;
+    width: 0.77rem;
+    position: absolute;
+    top: 0.34rem;
+    left: 4.08rem;
+}
+
+.pic .pic-content span:first-of-type {
+    font-size: 0.3rem;
+    color: #fff;
+    position: absolute;
+    top: 0.34rem;
+    left: 1.2rem;
+}
+
+.pic .pic-content span:last-of-type {
+    font-size: 0.3rem;
+    color: #fff;
+    position: absolute;
+    top: 0.34rem;
+    left: 5rem;
+}
+
+.pic .pic-content p:first-of-type {
+    font-size: 0.24rem;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    left: 1.2rem;
+}
+
+.pic .pic-content p:last-of-type {
+    font-size: 0.24rem;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+}
+
+
+/*dropdown*/
+
+.dropdown {
+    width: 7.5rem;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-bg {
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.dropdown .dropdown-content {
+    height: 1rem;
+    position: relative;
+}
+
+.dropdown .dropdown-content img:first-of-type {
+    width: 0.44rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0.32rem;
+    left: 0.24rem;
+}
+
+.dropdown .dropdown-content img:last-of-type {
+    width: 0.36rem;
+    height: 0.2rem;
+    position: absolute;
+    top: 0.32rem;
+    right: 0.14rem;
+}
+
+.dropdown .dropdown-content span {
+    font-size: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: 0.88rem;
+}
+
+
+/*plan*/
+
+.plan {
+    width: 7.5rem;
+    height: 7.36rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.plan .plan-bg {
+    width: 7.5rem;
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.plan .plan1 {
+    height: 0.82rem;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.plan .plan1 img:first-of-type {
+    width: 0.44rem;
+    height: 0.4rem;
+    margin: 0.22rem auto 0.22rem 0.22rem
+}
+
+.plan .plan1 img:last-of-type {
+    width: 0.31rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.26rem;
+    right: 1.4rem;
+}
+
+.plan .plan1 p {
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.22rem;
+    left: 0.84rem;
+}
+
+.plan .plan1 span {
+    font-size: 0.28rem;
+    color: #fe715d;
+    position: absolute;
+    top: 0.26rem;
+    right: 0.26rem;
+}
+
+
+/*plan-content*/
+
+.plan .plan-content {
+    width: 7.5rem;
+    height: 4.72rem;
+}
+
+.plan .plan-content ul li {
+    border-bottom: 1px solid #eee;
+    position: relative;
+    width: 7.5rem;
+    height: 0.94rem;
+}
+
+.plan .plan-content ul li>p {
+    height: 0.4rem;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.38rem;
+    left: 0.26rem;
+}
+
+.plan .plan-content ul li span {
+    width: 0.25rem;
+    height: 0..25rem;
+    background: #fe3c24;
+    color: #fff;
+    font-size: 0.28rem;
+    padding: 0.05rem;
+    border-radius: 0.05rem;
+    margin-right: 0.14rem;
+}
+
+.plan .plan-content ul li img {
+    width: 0.2rem;
+    height: 0.36rem;
+    position: absolute;
+    top: 0.24rem;
+    right: 0.24rem;
+}
+
+.plan .plan2 {
+    width: 7.5rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.plan .plan2 .oneToOne {
+    width: 4.06rem;
+    height: 0.74rem;
+    margin: 0.39rem auto 0.39rem;
+    border: 1px solid #ff7a00;
+    font-size: 0.3rem;
+    color: #ff7a00;
+    text-align: center;
+    line-height: 0.74rem;
+}
+
+
+/*subject*/
+
+.subject {
+    width: 7.5rem;
+    height: 6.14rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.subject .subject-bg {
+    width: 7.5rem;
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.subject .subject1 {
+    height: 0.82rem;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.subject .subject1 img:first-of-type {
+    width: 0.44rem;
+    height: 0.4rem;
+    margin: 0.22rem auto 0.22rem 0.22rem
+}
+
+.subject .subject1 img:last-of-type {
+    width: 0.31rem;
+    height: 0.26rem;
+    position: absolute;
+    top: 0.26rem;
+    right: 1.4rem;
+}
+
+.subject .subject1 p {
+    font-size: 0.3rem;
+    position: absolute;
+    top: 0.22rem;
+    left: 0.84rem;
+}
+
+.subject .subject1 span {
+    font-size: 0.28rem;
+    color: #fe715d;
+    position: absolute;
+    top: 0.26rem;
+    right: 0.26rem;
+}
+
+
+/*subject-content*/
+
+.subject .subt-content {
+    width: 7.5rem;
+    height: auto;
+}
+
+.subject .sub-content .sub-img {
+    width: 7.2rem;
+    height: 4.47rem;
+    margin: 0 auto;
+    margin-top: 0.26rem;
+    position: relative;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(1) {
+    width: 2.9rem;
+    height: 2.9rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(1) {
+    font-size: 0.36rem;
+    color: #fff;
+    position: absolute;
+    left: 0.15rem;
+    top: 0.6rem;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(2) {
+    width: 4.14rem;
+    height: 1.36rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(2) {
+    font-size: 0.36rem;
+    color: #fff;
+    position: absolute;
+    right: 0.15rem;
+    top: 0.6rem;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(3) {
+    width: 3.52rem;
+    height: 1.36rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(3) {
+    font-size: 0.36rem;
+    color: #fff;
+    position: absolute;
+    left: 0.51rem;
+    bottom: 0.42rem;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(4) {
+    width: 3.52rem;
+    height: 1.36rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(4) {
+    font-size: 0.36rem;
+    color: #fff;
+    position: absolute;
+    right: 0.51rem;
+    bottom: 0.42rem;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(5) {
+    width: 1.97rem;
+    height: 1.37zrem;
+    position: absolute;
+    right: 2.17rem;
+    top: 1.55rem;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(5) {
+    font-size: 0.3rem;
+    color: #fff;
+    position: absolute;
+    right: 2.56rem;
+    bottom: 1.9rem;
+}
+
+.subject .sub-content .sub-img img:nth-of-type(6) {
+    width: 1.97rem;
+    height: 1.37rem;
+    position: absolute;
+    right: 0;
+    top: 1.55rem;
+}
+
+.subject .sub-content .sub-img span:nth-of-type(6) {
+    font-size: 0.3rem;
+    color: #fff;
+    position: absolute;
+    right: 0.18rem;
+    bottom: 1.9rem;
+}
+
+
+/*easy*/
+
+.easy {
+    width: 7.5rem;
+    height: 6.3rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.easy .easy-bg {
+    width: 7.5rem;
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+.easy .easy1 {
+    width: 7.5rem;
+    height: 1.1rem;
+    font-size: 0.36rem;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    line-height: 1.1rem;
+}
+
+.easy .easy-content {
+    width: 7.5rem;
+    height: 3.4rem;
+}
+
+.easy .easy-content ul li {
+    width: 3.02rem;
+    height: 1.2rem;
+    float: left;
+    margin-top: 0.4rem;
+    margin-left: 0.36rem;
+    position: relative;
+}
+
+.easy .easy-content ul li img {
+    width: 0.93rem;
+    height: 0.92rem;
+}
+
+.easy .easy-content ul li h3 {
+    position: absolute;
+    top: 0rem;
+    left: 1rem;
+    font-size: 0.4rem;
+    color: #fe4028;
+}
+
+.easy .easy-content ul li p {
+    position: absolute;
+    top: 0.68rem;
+    left: 1rem;
+    font-size: 0.26rem;
+    color: #a6a8ab;
+}
+
+.easy .easy-bg1 {
+    width: 7.5rem;
+    height: 0.3rem;
+    background: #f5f5f5;
+}
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 1.2rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    z-index: 300;
+}
+
+footer .footer {
+    width: 7.5rem;
+    height: 1.2rem;
+}
+
+footer .footer ul li {
+    width: 0.94rem;
+    height: 0.94rem;
+    float: left;
+    margin-top: 0.14rem;
+    margin-right: 0.94rem;
+    color: #919191;
+}
+
+footer .footer ul li:first-of-type {
+    margin-right: 0.94rem;
+    margin-left: 0.5rem;
+}
+
+footer .footer ul li:last-of-type {
+    margin-right: 0;
+}
+
+footer .footer ul li img {
+    width: 0.5rem;
+    height: 0.49rem;
+    margin-left: 0.16rem;
+}
+
+footer .footer ul li h2 {
+    font-size: 0.2rem;
+    color: #969696;
+    margin-top: 0.18rem;
+}
+
+.color {
+    color: #fe3c24;
+}
+
+
+/*侧边栏aside*/
+
+#aside {
+    position: fixed;
+    top: 0;
+    right: -3rem;
+    z-index: 100;
+    width: 3rem;
+    height: 100%;
+    background: #242e30;
+}
+
+#aside ul li {
+    width: 3rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    border-bottom: 2px solid #969ca3;
+}
+
+#main {
+    max-width: 750px;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+
+/*优选留学方案 optimize*/
+
+.optimize {
+    width: 7.5rem;
+    height: 3.64rem;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.optimize ul li {
+    width: 7.5rem;
+    height: 0.9rem;
+    border-bottom: 1px solid #eee;
+}
+
+.optimize ul li div {
+    width: 3.75rem;
+    height: 0.9rem;
+    float: left;
+    position: relative;
+}
+
+.optimize ul li div span {
+    width: 0.25rem;
+    height: 0..25rem;
+    background: #fe3c24;
+    color: #fff;
+    font-size: 0.28rem;
+    padding: 0.05rem;
+    border-radius: 0.05rem;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.26rem;
+}
+
+.optimize ul li div h2 {
+    font-size: 0.24rem;
+    position: absolute;
+    top: 0.36rem;
+    left: 0.7rem;
+}
+
+
+/*指纹*/
+
+#finger {
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 0.24rem;
+    z-index: 30;
+}
+
+#finger >img {
+    width: 1.06rem;
+    height: 1.09rem;
+    position: relative;
+    z-index: 30;
+}
+
+#finger #f-content img {
+    width: 0.77rem;
+    height: 0.77rem;
+    float: left;
+    position: absolute;
+    bottom: 0.15rem;
+    left: 0.15rem;
+    z-index: 20;
+}
+
+
+/*电话*/
+
+.phone {
+    width: 0.76rem;
+    height: 1.32rem;
+    position: fixed;
+    bottom: 1.24rem;
+    right: 0rem;
+}
+
+.phone img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*call*/
+
+.call {
+    width: auto;
+    height: auto;
+    position: fixed;
+    bottom: 1.35rem;
+    right: 0rem;
+    z-index: 888;
+}
+
+.call img {
+    width: 0.76rem;
+    height: 1.32rem;
+}
+
+.phoneN {
+    width: 6.16rem;
+    height: 4.9rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.08rem;
+    margin-top: -2.45rem;
+    z-index: 999;
+    background: url(../images/back_btn3.png) no-repeat;
+    background-size: 100%;
+}
+
+.phoneN .phoneClose img {
+    width: 0.54rem;
+    height: 0.54rem;
+    position: absolute;
+    left: 5.89rem;
+    top: -0.27rem;
+}
+
+.phoneN .ques {
+    width: 4.95rem;
+    height: 0.6rem;
+    position: absolute;
+    left: 0.62rem;
+    bottom: 2rem;
+    background-color: #ffed74;
+    border-radius: 0.15rem;
+}
+
+.phoneN p {
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+.phoneN input {
+    width: 2.9rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    color: black;
+    position: absolute;
+    left: 0.6rem;
+    top: 3.25rem;
+    float: left;
+    line-height: 0.6rem;
+    border-radius: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+.phoneN button {
+    width: 1.74rem;
+    height: 0.55rem;
+    background: #fe3c24;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+    color: #fff;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 3.3rem;
+}
+
+.dark {
+    width: 100%;
+    height: 1000%;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    background: rgba(0, 0, 0, 0.5);
+}
