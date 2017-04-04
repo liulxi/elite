@@ -166,19 +166,19 @@ function callme(){
     $(".phoneN").removeClass("none");
     $(".dark").removeClass("none");
 };
- // var timerP=setInterval(callme,10000);
+ var timerP=setInterval(callme,5000);
 
 $(function(){
     $(".phone").click(function(event){
-        // clearInterval(timerP);
+        clearInterval(timerP);
         $(".phoneN").removeClass("none");
         $(".dark").removeClass("none");
     });
     $(".phoneClose").click(function(event){
-        // clearInterval(timerP);
+        clearInterval(timerP);
         $(".phoneN").addClass("none");
         $(".dark").addClass("none");
-        // timerP=setInterval(callme,10000);
+        timerP=setInterval(callme,5000);
     })
 });
 //留学头条
